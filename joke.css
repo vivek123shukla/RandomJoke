@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 37%;
+    height: 60%;
+    border-radius: 3rem;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    border-radius:10rem;
+    margin-bottom: 2cqmin;
+}
+#joke{
+    font-size: 1.7rem;
+    padding: 0.5rem;
+}
+#joke2{
+    font-size: 1.7rem;
+    border: 2px solid greenyellow;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.container button{
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 2rem;
+    cursor: pointer;
+    background-color: orange;
+}
